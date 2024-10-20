@@ -1,0 +1,15 @@
+[jenkins-master]
+10.1.1.28
+
+[jenkins-master:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file = Workshop.pem
+
+
+
+[jenkins-slave]
+10.1.1.207
+
+[jenkins-slave:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file = Workshop.pem
